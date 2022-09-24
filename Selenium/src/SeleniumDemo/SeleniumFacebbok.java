@@ -76,7 +76,7 @@ public class SeleniumFacebbok {
 		Select sm=new Select(month);
 		sm.selectByValue("9");
 		Select sy=new Select(year);
-		sy.selectByValue("1993");
+		sy.selectByValue("1996");
 		gender.click();
 		button.click();
 		
