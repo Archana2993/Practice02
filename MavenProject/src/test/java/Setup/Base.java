@@ -21,12 +21,6 @@ public class Base {
 			driver=new FirefoxDriver();
 			return driver;
 		}
-		public static WebDriver openOperaBrowser()
-		{
-			System.setProperty("webdriver.opera.driver","D:\\Sotware tesing\\Selenium\\New folder\\operadriver_win64\\operadriver.exe");
-			driver=new OperaDriver();
-			return driver;
-		}
 		
 		
 	

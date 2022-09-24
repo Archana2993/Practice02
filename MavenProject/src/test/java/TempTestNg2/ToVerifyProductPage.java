@@ -41,10 +41,7 @@ public class ToVerifyProductPage extends Base
 			{
 				driver=openFirefoxBrowser();
 			}
-			if(browserName.equals("Opera"))
-			{
-				driver=openOperaBrowser();
-			}
+			
 			
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
